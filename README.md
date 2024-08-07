@@ -2,7 +2,7 @@
 
 **Blink Read** is a web application designed to boost your reading speed by converting text into a format with a mix of bold and normal characters. This approach enhances readability and helps you process information more efficiently. Perfect for students, professionals, and avid readers looking to improve their reading pace.
 
-![Blink Read Screenshot] <!-- Add a screenshot of your app here -->
+
 ![image](https://github.com/user-attachments/assets/00be94b7-7fd9-49f2-89a2-344c196e0f85)
 
 
