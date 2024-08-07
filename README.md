@@ -22,16 +22,14 @@ To get started with Blink Read, follow these steps:
 A modern web browser (Chrome, Firefox, Safari, Edge)
 
 **Installation**
-**Clone the Repository:
-**
+
+**Clone the Repository:**
 git clone https://github.com/githamdaan25/BlinkRead.git
 
-**Navigate to the Project Directory:
-**
+**Navigate to the Project Directory:**
 cd BlinkRead
 
-**Open index.html in Your Web Browser.
-**
+**Open index.html in Your Web Browser.**
 
 **Usage**
 Enter your text into the top text box.
