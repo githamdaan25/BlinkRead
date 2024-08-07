@@ -1,0 +1,210 @@
+/* Basic Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #555;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+textarea {
+    width: calc(100% - 32px);
+    height: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 32px);
+    height: 150px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    color: #888; /* Placeholder text color */
+    white-space: pre-wrap; /* Preserve whitespace formatting */
+}
+
+.result:empty::before {
+    content: 'Fast ReadX your text here';
+    color: #888; /* Placeholder text color */
+    font-style: italic;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.loader {
+    display: none; /* Initially hidden */
+    font-size: 18px;
+    color: #007bff;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+footer p {
+    margin: 0;
+}
+/* Existing CSS styles here */
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button#reset {
+    background-color: #dc3545; /* Red color for reset button */
+}
+
+button#reset:hover {
+    background-color: #c82333;
+}
+/* Existing CSS styles here */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    resize: vertical;
+}
+
+.result {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button#reset {
+    background-color: #dc3545; /* Red color for reset button */
+}
+
+button#reset:hover {
+    background-color: #c82333;
+}
+
+footer {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
